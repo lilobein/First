@@ -2,13 +2,16 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #232020;
-    background-color: #d6a5ea;
+    background-color: #baa6e8;
     padding: 20px;
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
 }
 
 header {
-    background-color: #39124b;
+    background-color: #6052ba;
     padding: 1rem 0;
+    border: 2px solid #0b0d0f; 
 }
 
 .menu {
@@ -27,7 +30,7 @@ header {
 }
 
 section {
-    background: rgb(231, 216, 241);
+    background: rgb(255, 255, 255);
     padding: 20px;
     margin-bottom: 20px;
 }
