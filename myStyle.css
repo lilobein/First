@@ -2,16 +2,18 @@ body {
     font-family: Montserrat, sans-serif;
     line-height: 1.6;
     color: #232020;
-    background-color: #baa6e8;
+    background-color:  #4d4042 ;
     padding: 20px;
-    display: grid;
-    grid-template-rows: auto 1fr auto; 
 }
 
+/* #a2968d */
+/* #4d404a */
+
+
 header {
-    background-color: #6052ba;
+    background-color: #a2968d;
     padding: 1rem 0;
-    border: 2px solid #0b0d0f; 
+
 }
 
 .menu {
@@ -35,22 +37,27 @@ section {
     margin-bottom: 20px;
 }
 
-h2 {
-    color: #9876d7;
+#home {
+    text-align: center;
+    font-size: 20px;
+}
+
+#about {
+    text-align: justify
+}
+
+
+h2, h3 {
+    color: #48252f;
     margin-bottom: 15px;
 }
 
-h3 {
-    color: #9563db;
-    margin: 15px 0;
-}
-
 .main-image {
-    width: auto;
-    height: auto;
+    display: block;
     margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
 }
-
 .skills-table {
     border: 2px solid #0b0d0f; 
     width: 100%;
@@ -65,12 +72,12 @@ h3 {
 }
 
 .skills-table th {
-    background-color: #948da4;
+    background-color: #664444;
 }
 
 footer {
     width: 100%;
-    background-color: #3800614a;
+    background-color: #a2968d;
     color: white;
     text-align: center;
     padding: 15px;
