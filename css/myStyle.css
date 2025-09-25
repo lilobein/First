@@ -6,9 +6,6 @@ body {
     padding: 20px;
 }
 
-/* #a2968d */
-/* #4d404a */
-
 
 header {
     background-color: #a2968d;
@@ -73,6 +70,11 @@ h2, h3 {
 
 .skills-table th {
     background-color: #664444;
+}
+
+.um div {
+    background-color: #ddd;
+
 }
 
 footer {

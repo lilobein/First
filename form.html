@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Форма обратной связи</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Форма обратной связи</h1>
+    <form action= "https://httpbin.org/post" method="post">
+        <div>
+            <label>ФИО:</label><br>
+            <input type="text" name="fio" required>
+        </div> <br>
+        <div>
+            <label>Email:</label><br>
+            <input type="email" name="email" required>
+        </div> <br>
+        <div>
+            <label>Откуда узнали обо мне:</label><br>
+            <label>
+            <input type="radio" name="source" value="internet" required>
+            Социальные сети </label><br>
+            <label>
+            <input type="radio" name="source" value="friends">
+            Друзья</label><br>
+            <label>
+            <input type="radio" name="source" value="advertisement">
+            Реклама</label><br>
+            <label> <input type="radio" name="source" value="other">
+            Другое</label>
+        </div> <br>
+        <div>
+            <label >Тип обращения:</label><br>
+            <select required>
+                <option value="">-- Выберите тип --</option>
+                <option value="complaint">Жалоба</option>
+                <option value="suggestion">Предложение</option>
+                <option value="suggestion">Отзыв</option>
+            </select>
+        </div> <br>
+        <div>
+            <label>Текст сообщения:</label><br>
+            <textarea name="message" rows="5" cols="50" required></textarea>
+        </div> <br>
+        <div>
+            <label>Вложения:</label><br>
+            <input type="file" name="attachment">
+        </div> <br>
+        <div>
+            <label>
+            <input type="checkbox"name="consent" required>
+            Даю согласие на обработку персональных данных</label>
+        </div> <br>
+        <div>
+            <input type="submit" value="Отправить">
+        </div>
+    </form>   
+    </main>
+</body>
+</html>
